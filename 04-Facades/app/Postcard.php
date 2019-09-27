@@ -22,6 +22,7 @@ class Postcard
 //        dump(app()->make(PostcardSendingService::class));
 //        dump($arguments);
 
+        // Use "self" instead of "this" to call static methods "resolveFacade" and concat dynamic method call to $method()
         return (self::resolveFacade('Postcard'))
             ->$method(...$arguments);
     }

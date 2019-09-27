@@ -25,5 +25,5 @@ Route::get('postcard', function () {
 });
 
 Route::get('facades', function () {
-    Postcard::any();
+    Postcard::hello('hello from Fabio Schettino Italy, facade version', 'test@test.com');
 });

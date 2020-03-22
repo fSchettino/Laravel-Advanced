@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="database" uuid="60fd5779-a3a9-46ac-aafb-c54313a5ea31">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\fabio.schettino\Desktop\My\Github-Repositories\Laravel-Advanced\03-Polymorphic-relationships\database\database.sqlite</jdbc-url>
-      <driver-properties>
-        <property name="enable_load_extension" value="true" />
-      </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="SQLite - database.sqlite" uuid="76f6665c-c235-4a33-99b5-7e3249e46c0f">
+    <data-source source="LOCAL" name="Database.sqlite" uuid="b18177de-712b-4cbd-a3b6-79655504ee28">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>

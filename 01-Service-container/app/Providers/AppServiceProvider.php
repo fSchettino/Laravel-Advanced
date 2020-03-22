@@ -17,7 +17,7 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         // BankPaymentGateway class bind to function witch return same class but with currency param defined.
-        // BankPaymentGateway class use sinlgeton
+        // BankPaymentGateway class use singleton
         /* $this->app->singleton(BankPaymentGateway::class, function ($app){
             return new BankPaymentGateway('eur');
         }); */

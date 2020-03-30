@@ -11,7 +11,7 @@
 
 - Repository pattern
 - date format diffForHumans() method
-- format data using model model method
+- format data using model method
 
 ## About Laravel
 
